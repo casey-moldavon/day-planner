@@ -2,57 +2,96 @@
     box-sizing: border-box;
 }
 
-
+/* ---------- main body ----------*/
 body {
     padding: 0;
     margin: 0;
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     justify-content: center;
     align-items: center;
 }
 
-
+/* ---------- main container ----------*/
 #prime-container {
     background-color: #e7e7e7;
-    margin: 50px;
-    max-width: 60%;
+    border-radius: 25px;
+    padding: 0;
+    max-width: 80% auto;
     padding-bottom: 75px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
-.textbox {
-    font-size: 20px;
-    color: black;
-    background-color: #7c7c7c;
-}
-
-.time {
-    width: 100px;
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-}
-
-
+/* ---------- header ----------*/
 #day-planner {
     background-color: rgb(150, 0, 69);
     color: white;
-    border-radius: 50px;
-    margin: 25px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* ---------- targets all containers ----------*/
+.container {
+    padding: 5px;
+    background-color: rgb(90, 0, 90);
+}
 
-
+/* ---------- targets individual containers (start) ----------*/
 #container-9am {
-    background-color: rgb(90, 0, 90
-    );
+    padding-top: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#container-10am {
+}
+#container-11am {
+}
+#container-12pm {
+}
+#container-1pm {
+}
+#container-2pm {
+}
+#container-3pm {
+}
+#container-4pm {
+}
+#container-5pm {
+    padding-bottom: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/* ---------- targets individual containers (end) ----------*/
+
+
+/* ---------- targets all time text (9am, 10am, etc...) ----------*/
+.time-row {
+    width: 100px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* ---------- targets all textareas ----------*/
+.textbox {
+    width: 70%;
+    font-size: 20px;
+    color: black;
+    background-color: #c5c5c5;
+}
+
+.button {
+    width: 100px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(75, 75, 255);
 }
