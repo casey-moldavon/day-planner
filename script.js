@@ -16,6 +16,8 @@ $(document).ready(function () {
     //$("9am-textarea").css({color: "red"});
     //also change time-row font color to match the text box (personal extra feature)
 
+    //possibly design feature: after saved to local stroage, all text that has been saved is made bold
+
 var 
 
 
