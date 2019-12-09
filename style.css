@@ -90,8 +90,9 @@ body {
 
 .button {
     width: 100px;
-    padding-top: 20px;
+    padding-top: 12px;
     text-align: center;
+    font-size: 26px;
     color: white;
     background-color: rgb(75, 75, 255);
 }
