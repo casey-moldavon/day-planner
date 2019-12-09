@@ -14,7 +14,7 @@ body {
 }
 
 /* ---------- main container ----------*/
-#prime-container {
+/* #prime-container {
     background-color: #e7e7e7;
     border-radius: 25px;
     padding: 0;
@@ -23,16 +23,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;    
-}
+} */
 
 /* ---------- header ----------*/
 #day-planner {
-    background-color: rgb(150, 0, 69);
-    color: white;
+    background-color: rgb(7, 0, 55);
+    color: #8bc6f2;
     border-radius: 25px;
     margin-top: 25px;
     margin-bottom: 0;
     padding: 15px;
+    padding-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@ body {
 /* ---------- targets all containers ----------*/
 .container {
     padding: 5px;
-    background-color: rgb(90, 0, 90);
+    background-color: rgb(7, 0, 55);
 }
 
 /* ---------- targets individual containers (start) ----------*/
@@ -77,7 +78,7 @@ body {
     width: 100px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: #8bc6f2;
 }
 
 /* ---------- targets all textareas ----------*/
@@ -94,5 +95,5 @@ body {
     text-align: center;
     font-size: 26px;
     color: white;
-    background-color: rgb(75, 75, 255);
+    background-color: #3a6585;
 }
