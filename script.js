@@ -66,13 +66,48 @@ $(document).ready(function() {
     //     document.getElementById("9am-textarea").innerHTML = localStorage.getItem("9am-save");
     // };
 
-    saveButtons = document.addEventListener("click", function(){
-        localStorage.nineText = nineAm.value
-        console.log(localStorage.nineText);
+        saveButtons = document.addEventListener("click", function(){
+            localStorage.nineText = nineAm.value;
+            console.log(localStorage.nineText);
+
+            localStorage.tenText = tenAm.value;
+            console.log(localStorage.tenText);
+
+            localStorage.elevenText = elevenAm.value;
+            console.log(localStorage.elevenText);
+
+            localStorage.twelveText = twelvePm.value;
+            console.log(localStorage.twelveText);
+
+            localStorage.oneText = onePm.value;
+            console.log(localStorage.oneText);
+
+            localStorage.twoText = twoPm.value;
+            console.log(localStorage.twoText);
+
+            localStorage.threeText = threePm.value;
+            console.log(localStorage.threeText);
+
+            localStorage.fourText = fourPm.value;
+            console.log(localStorage.fourText);
+
+            localStorage.fiveText = fivePm.value;
+            console.log(localStorage.fiveText);
+        });
+
+        document.getElementById("9am-textarea").innerText = localStorage.nineText;
+        document.getElementById("10am-textarea").innerText = localStorage.nineText;
+        document.getElementById("11am-textarea").innerText = localStorage.nineText;
+        document.getElementById("12pm-textarea").innerText = localStorage.nineText;
+        document.getElementById("1pm-textarea").innerText = localStorage.nineText;
+        document.getElementById("2pm-textarea").innerText = localStorage.nineText;
+        document.getElementById("3pm-textarea").innerText = localStorage.nineText;
+        document.getElementById("4pm-textarea").innerText = localStorage.nineText;
+        document.getElementById("5pm-textarea").innerText = localStorage.nineText;
 
 
-        document.getElementById("9am-textarea").innerHTML = localStorage.nineText;
-    });
+
+
 
 
 //     localStorage.value=yourValue;
