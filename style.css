@@ -95,7 +95,8 @@ body {
     width: 70%;
     font-size: 20px;
     color: black;
-    background-color: #c5c5c5;
+    /* background-color: #c5c5c5; */
+    background-color: #c50000;
 }
 
 .button {

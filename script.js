@@ -1,6 +1,10 @@
-// $(document).ready(function() {
+$(document).ready(function() {
     //used to start Jquery
 
+    var currentTime = new Date();
+
+    var hours = currentTime.getHours();
+    console.log(hours)
 
     //------------------------- Current Time highlights -------------------------
     //this section contains the code directed at altering the color for each textarea...
@@ -16,12 +20,42 @@
     var fourPm = document.getElementById("4pm-textarea");
     var fivePm = document.getElementById("5pm-textarea");
 
+    // function timeHighlight(){
+    //     //9am textarea
+    //     if (hours > 9) {}
+    // }
     function timeHighlight(){
-        //9am textarea
-        if (hours >)
-    }
 
-// });
+        if (hours > 9) {nineAm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 9) {nineAm.style.backgroundColor = "#007000"};
+
+        if (hours > 10) {tenAm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 10) {tenAm.style.backgroundColor = "#007000"};
+
+        if (hours > 11) {elevenAm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 11) {elevenAm.style.backgroundColor = "#007000"};
+
+        if (hours > 12) {twelvePm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 12) {twelvePm.style.backgroundColor = "#007000"};
+
+        if (hours > 13) {onePm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 13) {onePm.style.backgroundColor = "#007000"};
+
+        if (hours > 14) {twoPm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 14) {twoPm.style.backgroundColor = "#007000"};
+
+        if (hours > 15) {threePm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 15) {threePm.style.backgroundColor = "#007000"};
+
+        if (hours > 16) {fourPm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 16) {fourPm.style.backgroundColor = "#007000"};
+
+        if (hours > 17) {fivePm.style.backgroundColor = "#c5c5c5"};
+        if (hours < 17) {fivePm.style.backgroundColor = "#007000"};
+
+    }
+    timeHighlight();
+});
 
 
 
@@ -43,6 +77,7 @@
 
     //possibly design feature: after saved to local stroage, all text that has been saved is made bold
 
-
+        // if (hours > 9) {$("9am-textarea").css({"background-color": "red"})};
+        // if (hours < 9) {$("9am-textarea").css({"background-color": "green"})};
 
 
