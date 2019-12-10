@@ -26,15 +26,26 @@ body {
 } */
 
 /* ---------- header ----------*/
-#day-planner {
+#container-time-planner {
     background-color: rgb(7, 0, 55);
     color: #8bc6f2;
     border-radius: 25px;
     padding: 15px;
-    padding-right: 50px;
-    display: flex;
+    padding-left: 42px;
+    padding-right: 42px;
+    text-align: center;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+}
+
+#day-planner {
+    background-color: rgb(7, 0, 55);
+    color: #8bc6f2;
+}
+#time-display {
+    background-color: rgb(7, 0, 55);
+    color: #8bc6f2;
 }
 
 /* ---------- targets all containers ----------*/
