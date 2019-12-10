@@ -56,8 +56,32 @@ $(document).ready(function() {
         if (hours > 17) {fivePm.style.backgroundColor = "#c5c5c5"};
         if (hours < 17) {fivePm.style.backgroundColor = "#007000"};
 
-    }
+    };
+
     timeHighlight();
+
+    // function storeValue() {
+    //     localStorage.setItem("9am-save", "nineAm");
+    //     console.log();
+    //     document.getElementById("9am-textarea").innerHTML = localStorage.getItem("9am-save");
+    // };
+
+    saveButtons = document.addEventListener("click", function(){
+        localStorage.nineText = nineAm.value
+        console.log(localStorage.nineText);
+
+
+        document.getElementById("9am-textarea").innerHTML = localStorage.nineText;
+    });
+
+
+//     localStorage.value=yourValue;
+
+// // Store
+// localStorage.lastname = "Smith";
+// // Retrieve
+// document.getElementById("result").innerHTML = localStorage.lastname;
+
 
 
 // saveButtons.addEventListener("click", updateOutput());
