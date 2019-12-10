@@ -20,10 +20,11 @@ $(document).ready(function() {
     var fourPm = document.getElementById("4pm-textarea");
     var fivePm = document.getElementById("5pm-textarea");
 
-    // function timeHighlight(){
-    //     //9am textarea
-    //     if (hours > 9) {}
-    // }
+
+    //------------------------- conditionals (changes textarea coloring) -------------------------
+    //color is set to ref in css
+    //past hours are then colored gray (bellow) while hours that have not yet occured are colored green.
+
     function timeHighlight(){
 
         if (hours > 9) {nineAm.style.backgroundColor = "#c5c5c5"};
