@@ -10,7 +10,7 @@ $(document).ready(function() {
     //this section contains the code directed at altering the color for each textarea...
     //based on if the current hour is equal to, before or after that of the textarea's.
 
-    var nineAm = document.getElementById("9am-textarea");
+    var nineAm = document.getElementById("9am-textarea"); //each works as text input and output
     var tenAm = document.getElementById("10am-textarea");
     var elevenAm = document.getElementById("11am-textarea");
     var twelvePm = document.getElementById("12pm-textarea");
@@ -19,6 +19,8 @@ $(document).ready(function() {
     var threePm = document.getElementById("3pm-textarea");
     var fourPm = document.getElementById("4pm-textarea");
     var fivePm = document.getElementById("5pm-textarea");
+
+    var saveButtons = document.querySelectorAll(".button");
 
 
     //------------------------- conditionals (changes textarea coloring) -------------------------
@@ -56,8 +58,66 @@ $(document).ready(function() {
 
     }
     timeHighlight();
-});
 
+
+// saveButtons.addEventListener("click", updateOutput());
+
+// nineAm.textContent = localStorage.getItem("content");
+// nineAm.textContent.value = localStorage.getItem("content");
+
+// function updateOutput() {
+
+//     localStorage.setItem("content", nineAm.value);
+
+//     nineAm.textContent = nineAm.value;
+// }
+
+
+// // Check browser support
+// if (typeof(Storage) !== "undefined") {
+//     // Store
+//     localStorage.setItem("lastname", "Smith");
+//     // Retrieve
+// //     document.getElementById("9am-textarea").innerHTML = localStorage.getItem("");
+// //   } else {
+// //     document.getElementById("9am-textarea").innerHTML = "Sorry, your browser does not support Web Storage...";
+// //   }
+
+
+
+
+
+
+// var input_textarea = document.querySelector('.content-input');
+// var output_div = document.querySelector('.content-output');
+// var save_button = document.querySelector('.save-button');
+
+// save_button.addEventListener('click', updateOutput);
+
+// output_div.textContent = localStorage.getItem('content');
+// input_textarea.value = localStorage.getItem('content');
+
+// function updateOutput() {
+// 	localStorage.setItem('content', input_textarea.value);
+	
+// 	output_div.textContent = input_textarea.value;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
 
 
 // self note: create values for each textarea
