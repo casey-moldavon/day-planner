@@ -63,6 +63,11 @@ The red Arrows just point to the clock and where the variable of hours fits in w
 And that's about it. i found this project to be somewhat straightforward but very time-consuming. Here's hoping all projects follow that pattern for me as i quite enjoyed working on this. May actually continue to build on it in the future. I much prefer my own design over my current day-planner (the calendar on my phone....its kinda boring and a little ugly. they could have done better with the design). May even include something to track the seasons and change the color and background display in the future. that would be really cool.
 
 
+
+![image-final](images/image-final.jpg)
+final result image above....its a little cur off but should look like that more-or-less
+
+
 ## Built With
 ​
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
