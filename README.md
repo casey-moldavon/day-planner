@@ -65,7 +65,7 @@ And that's about it. i found this project to be somewhat straightforward but ver
 
 
 ![image-final](images/image-final.jpg)
-final result image above....its a little cur off but should look like that more-or-less
+final result image above....its a little cut off but should look like that more-or-less.
 
 
 ## Built With
