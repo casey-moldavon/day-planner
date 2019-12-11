@@ -1,3 +1,4 @@
+    
     //------------------------- THE CLOCK!!!!! -------------------------
     //other functions were somehow conflicting with this one (new file).
     function displayTime(){
