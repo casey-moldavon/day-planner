@@ -6,7 +6,7 @@ This project was to create a functional day planner specifically targetting work
 ​
 As this all projects, i began with creating, in git bash, the needed files which included an index.html, a stlye.css and a script.js. I began working in the index.html, writing out from scratch all the skelenton basics of the day planner such as the containers, textareas, buttons and displays (time/date and header). I was sure to assign classes to each button and textarea, along with unique IDs for each to identify and seperate each one from the others (using the target hour as a means to organize. Example: id="9am-textarea", id="10am-textarea; see image...).
 
-![image-html](images/imahe-html.jpg)
+![image-html](images/image-html.jpg)
 
 As you can see in the image above, i had to copy and paste quite a bit, basically replicating the same code for every row which contained the hour, a textarea and save button (as previously mentioned). Though the code doesn't look very appealing or organized, i assure you that i was very precise and exact with how i wanted to oraganize the values, classes and ids.
 
