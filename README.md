@@ -1,10 +1,15 @@
 # Project Title: Day Planner
 ​
 This project was to create a functional day planner specifically targetting work hours (9am - 5pm) integrating with current time/date information to make the planner more interactive. The idea is that the user can see past, current and future sechuled plans that they have writen in and saved for themselves (to local storage).
+
+
+# How it Works:
+
+This day planner tracks a typical work day between the hours of 9am to 5pm. The user may write and save content within each text area per hour. The current hour will be highlighted in red. Hours that have passed are in grey and hours yet to come are highlighted in green.
 ​
 ## Getting Started
 ​
-As this all projects, i began with creating, in git bash, the needed files which included an index.html, a stlye.css and a script.js. I began working in the index.html, writing out from scratch all the skelenton basics of the day planner such as the containers, textareas, buttons and displays (time/date and header). I was sure to assign classes to each button and textarea, along with unique IDs for each to identify and seperate each one from the others (using the target hour as a means to organize. Example: id="9am-textarea", id="10am-textarea; see image...).
+As with all projects, i began with creating, in git bash, the needed files which included an index.html, a stlye.css and a script.js. I began working in the index.html, writing out from scratch all the skelenton basics of the day planner such as the containers, textareas, buttons and displays (time/date and header). I was sure to assign classes to each button and textarea, along with unique IDs for each to identify and seperate each one from the others (using the target hour as a means to organize. Example: id="9am-textarea", id="10am-textarea; see image...).
 
 ![image-html](images/image-html.jpg)
 
@@ -29,14 +34,14 @@ In this image specifically, you can see where IDs and classes were used in my cs
     border-bottom-right-radius: 25px;
 }
 ​
-Through this project and actually the last, i found that i really enjoy working with css which is not an opinion i had when first diving into it. But now i see it almost like a clerifying process, helping me to organize my thoughts and approach before moving onto script.js...which brings me to my next section...THE CLOCK!!!!
+Throughout this project, i found that i really enjoy working with css which is not an opinion i had when first diving into it. But now i see it almost like a clerifying process, helping me to organize my thoughts and approach before moving onto script.js...which brings me to my next section...THE CLOCK!!!!
 
 ![image-the-clock!!!](images/image-the-clock.jpg)
 ![image-the-clock-2!!!](images/image-the-clock-2.jpg)
 
-This part was a little challenging to make but google made for an excellent assistant. The hardest part for me was actually understanding what 'new Date()' actually was. From there, it got easier to do the rest. As you'll see in my code, i ended up making a new .js file called clock.js. This was not just for the sake of organizing my code (which i have become quite obssessive over doing) but also to avoid other functions from interfereing with it (which started happening once the clock was completed and i started moving onto other features of the page). I probably could have found a better solution but the keeping organized and also preventing conflicts between functions both being fixed by such a simple concept as creating a new .js file just seemed to good a fix to ignore. Also time has not been my friend in these projects and i needed every bit i could spare. Displaying the clock wasn't too difficult either as i smply placed it within the header section along with the day-planner container.
+This part was a little challenging to make but google made for an excellent assistant. The hardest part for me was actually understanding what 'new Date()' actually was. From there, it got easier to do the rest. As you'll see in my code, i ended up making a new .js file called clock.js. This was not just for the sake of organizing my code (which i have become quite obssessive over doing) but also to avoid other functions from interfereing with it. This sort of conflict actually happened once the clock was completed and i started moving onto other features of the page. I probably could have found a better solution but keeping organized and also preventing conflicts between functions both being fixed by such a simple concept as creating a new .js file just seemed too good a fix to ignore. Also time has not been my friend in these projects and i needed every bit i could spare. Displaying the clock wasn't too difficult either as i smply placed it within the header section along with the day-planner container.
 
-...also, yes, i just took those pictures tonight, the night the project is due. usually ill write the README.md as i go but this time around i decided to dedicate my focus on one little project at a time, leaving the walk-through od said project for the end.
+...also, yes, i just took those pictures tonight, the night the project is due. usually ill write the README.md as i go but this time around i decided to dedicate my focus on one little project at a time, leaving the walk-through of said project for the end.
 
 
 the next issue i encountered was with storing the information writen in each textarea to localStorage. This was quite a challenge because, even at this point, i am still somewhat unfamiliar with the inner workings of localStorge. tis, or rather twas*, an enigma i only mannaged to actually understand today as i forced my way through it. I'm still quite unclear on how to store individual things within individual textareas (as you'll find when testing my day planner out) but i'll figure it all out eventually. Still learning and some things take longer than others. I'm definitely on the right track but i ran out of time before i could complete it. Will definitely re-visit this part after the project is graded as i'd like to complete it, even if not on time for the best grade.
@@ -51,7 +56,7 @@ current hour: textarea is red
 hours past: textarea is gray
 hours yet to come: textarea is green
 
-I'm aware that many of my fellow classmates struggled with this part but, surprisingl, i found it to be very easy. I simply set the textarea default background-color to a red that i preferred, created a mini-clock (tracking just the current hour) on the script.js file and then wrote conditional if statements to alter the textarea with .style to a preferred gray (current hour > the textarea's designated time (example: 9am) and another for less than "<"). I'll include images for this as well...
+I'm aware that many of my fellow classmates struggled with this part but, surprisingly, i found it to be very easy. I simply set the textarea default background-color to a red that i preferred, created a mini-clock (tracking just the current hour) on the script.js file and then wrote conditional if statements to alter the textarea with .style to a preferred gray (current hour > the textarea's designated time (example: 9am) and another for less than "<"). I'll include images for this as well...
 
 
 ![image-textarea-color](images/image-textarea-color.jpg)
